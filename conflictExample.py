@@ -1,4 +1,5 @@
-    return f"Hello, {name}! Welcome to dcs211"
-    return f"Hello, {name}! Thank you"
+def greet(name):
+    return f"Hello, {name}! Welcome.."
 
-
+if __name__ == "__main__":
+    print(greet("DCS211"))
