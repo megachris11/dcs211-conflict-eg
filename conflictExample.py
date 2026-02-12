@@ -2,4 +2,5 @@ def greet(name):
     return f"Hello, {name}! Welcome.."
 
 if __name__ == "__main__":
-    print(greet("DCS211"))
+    name = input("What is your name?")
+    print(greet(name))
